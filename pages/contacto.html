@@ -43,29 +43,32 @@
         </header>
         <main class="main-contacto">
           <!-- Acá esta contenido el formulario -->
-          <div class="contenedor-formulario">
-            <form class="formulario" action="">
-                <h2 class="form_title"> Forma parte del club</h2>
-                  <p class="form_paragraph">¿Aún no te nos uniste?</p>
-                <div class="formulario-nombre">
-                    <label for="nombre">Nombre y Apellido:</label>
-                    <input type="text" name="nombre" id="" placeholder="Nombre">
-                </div>
-                <div class="formulario-email">
-                    <label for="correo electrónico">Correo Eletrónico:</label>
-                    <input type="email" name="correo electrónico" id="" placeholder="xxxx.xxxxx@xxx.com">
-                </div>
-                <div class="formulario-genero-favorito">
-                    <label for="género favorito">Género Favorito:</label>
-                    <input type="text" name="género favorito" id="" placeholder="Drama-Thriller">
-                </div>
-                <div class="formulario-pais">
-                    <label for="país de residencia">País de Residencia:</label>
-                    <input type="text" name="pais de residencia" id="" placeholder="xxxxxxxxxx">
-                </div>
-                <button>Sumate</button>
-            </div>
-            </form>
+          <div class="contenedor-form">
+            <h1>Contacto</h1>
+            <h2>¿Todavía no sos parte?</h2>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre">
+                <label for="exampleFormControlInput1" class="form-label">Dirección de email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                <label for="exampleFormControlInput1" class="form-label">País</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu país">
+              </div>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Elige una opción</option>
+                <option value="1">Histórico</option>
+                <option value="2">Terror</option>
+                <option value="3">Thriller</option>
+                <option value="4">Fantástico</option>
+                <option value="5">Sci-fi</option>
+                <option value="6">Juvenil</option>
+              </select>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                <button class="btn btn-primary" type="button">Enviar</button>
+              </div>
+          </div>
+
+
         </main>
         <!-- Acá van las características del FOOTER de BOOTSTRAP -->
         <footer class="bg-light text-center text-lg-start">
